@@ -11,8 +11,9 @@ function saveData() {
 function recoverData() {
 	/*Para que mis comentarios o se repetian*/
     $('#cont-comentarios').empty();
+    
     for(var name in localStorage) {
-        var coment = localStorage.getItem(name);
+        var coment = localStorage[name];
         var div1 = document.createElement('div');
         var div2 = document.createElement('div');
         	div1.setAttribute('id', 'div1');

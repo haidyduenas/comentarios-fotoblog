@@ -1,0 +1,65 @@
+body {
+  background-color: #82E0AA;
+  color: white;
+  font-family: 'Cabin', sans-serif;
+
+}
+
+ #logo{
+  width: 30em;
+  height: 25em;
+ }
+
+#portada{
+    width: 100%;
+    height: 300px;
+    margin: 25px;
+}
+
+ .img-4{
+    width: 100%;
+    height: 300px;
+    /* border: 5px; */
+    margin: 25px;
+ }
+#formulario{
+  margin: 15%;
+  border-radius: 7px;
+  padding: 5%;
+  background-color: rgba(0, 0, 255, .6);
+}
+
+.form-group label{
+  color: #FFFFFF;
+  font-weight: 600;
+}
+
+#datos{
+  color: #FFFFFF;
+  font-size: 600;
+}
+#data{
+  color: #FFFFFF;
+  font-weight: 600;
+}
+
+.btn-primary{
+  margin: 2%;
+}
+#comentarios{
+  color: black;
+}
+#cont-comentarios{
+    margin: 15%;
+    border-radius: 7px;
+    padding: 5%;
+    background-color: rgba(214, 219, 223, .6);
+}
+footer{
+  padding: 10px;
+}
+
+
+
+/* Estilos comentarios */
+
